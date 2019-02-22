@@ -1,4 +1,4 @@
-﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" mva:VisualBasic.Settings="{x:Null}"
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Main_1"
  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
@@ -52,23 +52,23 @@
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence>
-    <WriteLine DisplayName="Write Line" Text="Hallo" sap2010:WorkflowViewState.IdRef="WriteLine_1" />
-    <sap2010:WorkflowViewState.IdRef>Sequence_1</sap2010:WorkflowViewState.IdRef>
-    <sads:DebugSymbol.Symbol>dzpDOlxVc2Vyc1xzYnJvc2VcRG9jdW1lbnRzXFVpUGF0aFxHaXRcVGVzdFByb2pla3RcTWFpbi54YW1sAzcDOw4CAQE4BThmAgECOC44NQIBAw==</sads:DebugSymbol.Symbol>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <WriteLine DisplayName="Write Line" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Hallo" />
+    <WriteLine DisplayName="Write Line" Text="sadsadasda" sap2010:WorkflowViewState.IdRef="WriteLine_2" />
+    <sads:DebugSymbol.Symbol>dzdDOlxVc2Vyc1xzYnJvc2VcRG9jdW1lbnRzXFRlc3RHaXRcVGVzdFByb2pla3RcTWFpbi54YW1sBTcDOw4CAQE4BThmAgEEOQU5awIBAjhcOGMCAQU5Ljk6AgED</sads:DebugSymbol.Symbol>
   </Sequence>
-  <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
       <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="210,61" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="232,185">
+      <sap2010:ViewStateData Id="WriteLine_2" sap:VirtualizedContainerService.HintSize="210,61" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="232,286">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="272,305" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="272,406" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>

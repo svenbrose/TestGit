@@ -990,9 +990,9 @@
     "restore": {
       "projectUniqueName": "TestProjekt",
       "projectName": "TestProjekt",
-      "projectPath": "C:\\Users\\sbrose\\Documents\\UiPath\\Git\\TestProjekt\\.local",
+      "projectPath": "C:\\Users\\sbrose\\Documents\\TestGit\\TestProjekt\\.local",
       "packagesPath": "C:\\Users\\sbrose\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sbrose\\Documents\\UiPath\\Git\\TestProjekt\\.local"
+      "outputPath": "C:\\Users\\sbrose\\Documents\\TestGit\\TestProjekt\\.local"
     },
     "frameworks": {
       "net461": {
